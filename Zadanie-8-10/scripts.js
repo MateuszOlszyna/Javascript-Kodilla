@@ -2,9 +2,10 @@
 
 var buttons = document.getElementsByClassName ("button");
 
-	function alertButtons (buttons) {
-	for (var i = 0; i < buttons.length; i++) {
-		alert(buttons.innerHTML)
+ function alertButtons () {
+ for (var i = 0; i < buttons.length; i++) {
+  alert(buttons[i].innerHTML)
 
-	}
-	}
+ }
+ }
+alertButtons();
