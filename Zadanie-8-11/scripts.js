@@ -7,6 +7,7 @@ var list = document.getElementById("list");
 add.addEventListener('click', function() {
 
 	var number = document.getElementsByTagName("li")
-	list.innerHTML += "<li>item</li>" + number.length
+	list.innerHTML += "<li> item </li>" + number.length; 
+
 }); 
 
